@@ -43,12 +43,34 @@ public class Main {
             String date1New = simpleDateFormat1.format(date);
 // Выводим на консоль.
             System.out.println("вывод на консоль названия дня недели по введенной дате: " + date1New);
-        }
-//____________________________________________________
-        System.out.println("\nЗадание №2");
-        DZ14_02(); //Для сегоднящней даты (Посчитал что слишком просто)
 
-        long j = date.getTime();
+//____________________________________________________
+//2.1 по сегодняшней дате
+        System.out.println("\nЗадание №2.1");
+
+            Date date1 = new Date();
+            long j = (date1.getTime() + (24 * 60 * 60 * 1000)); // для сегодняшной даты
+
+            for (int i = 0; i < 7; i++) {
+                j += ((24 * 60 * 60 * 1000));
+                date1.setTime(j);
+                String tuesday = "Tuesday";
+                String pattern5 = "EEEE";
+                SimpleDateFormat simpleDateFormat5 = new SimpleDateFormat(pattern5, new Locale("en", "EN"));
+                String date5n = simpleDateFormat5.format(date1);
+                if (date5n.equals(tuesday)) {
+                    String pattern5New = "dd MM yyyy";
+                    SimpleDateFormat simpleDateFormat5New = new SimpleDateFormat(pattern5New, new Locale("en", "EN"));
+                    String date5New = simpleDateFormat5New.format(date1);
+                    System.out.println("Дата следующего вторника: " + date5New + " (ДД.ММ.ГГГГ)");
+
+                }
+            }
+//_____________________________________________________________________________________
+
+//2.2 По введенной дате
+            System.out.println("\nЗадание №2.2");
+        j = date.getTime();
         for (int i = 0; i < 14; i++) {
             j += ((24 * 60 * 60 * 1000));
             date.setTime(j);
@@ -65,26 +87,20 @@ public class Main {
             }
         }
 
-    }
+//___________________________________________________________________
+//3 Задание.
+            System.out.println("\nЗадание №3");
 
-    private static void DZ14_02() {
-
-        Date date1 = new Date();
-        long j = (date1.getTime() + (24 * 60 * 60 * 1000)); // для сегодняшной даты
-
-        for (int i = 0; i < 7; i++) {
-            j += ((24 * 60 * 60 * 1000));
-            date1.setTime(j);
-            String tuesday = "Tuesday";
-            String pattern5 = "EEEE";
-            SimpleDateFormat simpleDateFormat5 = new SimpleDateFormat(pattern5, new Locale("en", "EN"));
-            String date5n = simpleDateFormat5.format(date1);
-            if (date5n.equals(tuesday)) {
-                String pattern5New = "dd MM yyyy";
-                SimpleDateFormat simpleDateFormat5New = new SimpleDateFormat(pattern5New, new Locale("en", "EN"));
-                String date5New = simpleDateFormat5New.format(date1);
-                System.out.println("Дата следующего вторника: " + date5New + " (ДД.ММ.ГГГГ)");
-
+            System.out.print("Введите 1 для использования интерффейса: ");
+            if (scanner.nextInt() == 1){
+                System.out.println("Какое слово перевернуть?: ");
+                String liters = scanner.next();
+                FunInter<String> funInter = funInterLiters -> {
+                    StringBuilder stringBuilder = new StringBuilder(funInterLiters);
+                    stringBuilder.reverse();
+                };
+                funInter.FunIn(liters);
+                System.out.println(funInter);
             }
         }
     }
