@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e45dc921-8c1c-44db-9462-f0b0d7b0484c" name="Changes" comment="DZ14 (90%) problem functional Interface">
+    <list default="true" id="e45dc921-8c1c-44db-9462-f0b0d7b0484c" name="Changes" comment="DZ14 (100%)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FunInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunInter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -39,7 +39,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Clay/TMS School/Lesson 14 03.11.2022&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Clay/TMS School/Lesson 15 10.11.2022&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668024762507</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DZ14 (100%)">
+      <created>1668358582309</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668358582309</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +123,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DZ14 (50%) no functional Interface" />
     <MESSAGE value="DZ14 (90%) problem functional Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="DZ14 (90%) problem functional Interface" />
+    <MESSAGE value="DZ14 (100%)" />
+    <option name="LAST_COMMIT_MESSAGE" value="DZ14 (100%)" />
   </component>
 </project>

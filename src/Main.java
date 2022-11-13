@@ -101,7 +101,7 @@ public class Main {
                 stringBuilder.reverse();
                 return new String(stringBuilder);
             };
-            System.out.println(funInter.FunIn(string));
+            System.out.println(funInter.funIn(string));
         }
         scanner.close();
     }
