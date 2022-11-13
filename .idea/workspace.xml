@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e45dc921-8c1c-44db-9462-f0b0d7b0484c" name="Changes" comment="DZ14 (50%) no functional Interface">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 14 03.11.2022.iml" afterDir="false" />
+    <list default="true" id="e45dc921-8c1c-44db-9462-f0b0d7b0484c" name="Changes" comment="DZ14 (90%) problem functional Interface">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunInter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zadanie14.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/zadanie14.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,16 +39,23 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bboyClay/TMS School/Lesson 14 03.11.2022&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Clay/TMS School/Lesson 14 03.11.2022&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Lesson 14 03.11.2022" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main3" />
       <module name="Lesson 14 03.11.2022" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -61,6 +64,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main3" />
       </list>
     </recent_temporary>
   </component>
@@ -75,7 +79,8 @@
       <workItem from="1667752374766" duration="89000" />
       <workItem from="1667752481221" duration="645000" />
       <workItem from="1667935759857" duration="5077000" />
-      <workItem from="1668022764933" duration="1692000" />
+      <workItem from="1668022764933" duration="1913000" />
+      <workItem from="1668109671631" duration="350000" />
     </task>
     <task id="LOCAL-00001" summary="DZ14 (50%) no functional Interface">
       <created>1667938751800</created>
@@ -84,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667938751800</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="DZ14 (90%) problem functional Interface">
+      <created>1668024762507</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668024762507</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DZ14 (50%) no functional Interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="DZ14 (50%) no functional Interface" />
+    <MESSAGE value="DZ14 (90%) problem functional Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="DZ14 (90%) problem functional Interface" />
   </component>
 </project>

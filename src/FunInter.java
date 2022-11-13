@@ -1,6 +1,6 @@
 @FunctionalInterface
 public interface FunInter<L> {
 
-    void FunIn (L liters);
+    L FunIn (L liters);
 
 }
